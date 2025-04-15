@@ -25,7 +25,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: 'Wiki',
     Svg: require('@site/static/img/wiki.svg').default,
-      link:'',
+      link:'http://http://192.168.212.195:3000/',
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
