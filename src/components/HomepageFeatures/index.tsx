@@ -12,7 +12,7 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Gitlab',
+    title: 'Gitlab CBSC',
     Svg: require('@site/static/img/gitlab.svg').default,
       link: 'https://cbsc-git-repo.collega.co.id/',
     description: (
