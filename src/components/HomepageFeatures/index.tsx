@@ -73,6 +73,16 @@ const FeatureList: FeatureItem[] = [
             </>
         ),
     },
+    {
+        title: 'Kibana',
+        Svg: require('@site/static/img/kibana.svg').default, link:'http://192.168.212.125:5601/',
+        description: (
+            <>
+                Extend or customize your website layout by reusing React. Docusaurus can
+                be extended while reusing the same header and footer.
+            </>
+        ),
+    },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {
