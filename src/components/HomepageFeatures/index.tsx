@@ -83,6 +83,16 @@ const FeatureList: FeatureItem[] = [
             </>
         ),
     },
+    {
+        title: 'Excalidraw',
+        Svg: require('@site/static/img/excalidraw.svg').default, link:'http://192.168.212.43:5000/',
+        description: (
+            <>
+                Extend or customize your website layout by reusing React. Docusaurus can
+                be extended while reusing the same header and footer.
+            </>
+        ),
+    },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {
