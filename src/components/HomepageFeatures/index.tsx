@@ -113,6 +113,16 @@ const FeatureList: FeatureItem[] = [
             </>
         ),
     },
+    {
+        title: 'RSA',
+        Svg: require('@site/static/img/rsa.svg').default, link:'http://192.168.212.124:3411/RsaUtilWebUI',
+        description: (
+            <>
+                Extend or customize your website layout by reusing React. Docusaurus can
+                be extended while reusing the same header and footer.
+            </>
+        ),
+    },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {
