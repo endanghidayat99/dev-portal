@@ -123,6 +123,16 @@ const FeatureList: FeatureItem[] = [
             </>
         ),
     },
+    {
+        title: 'Tools App',
+        Svg: require('@site/static/img/cog.svg').default, link:'http://192.168.212.124:3411/tools',
+        description: (
+            <>
+                Extend or customize your website layout by reusing React. Docusaurus can
+                be extended while reusing the same header and footer.
+            </>
+        ),
+    },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {
