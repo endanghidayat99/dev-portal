@@ -35,7 +35,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Nexus Repo',
-    Svg: require('@site/static/img/nexus.svg').default, link:'http://192.168.212.42:8081',
+    Svg: require('@site/static/img/nexus.svg').default, link:'http://192.168.234.111:7071',
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
