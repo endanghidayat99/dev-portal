@@ -133,6 +133,16 @@ const FeatureList: FeatureItem[] = [
             </>
         ),
     },
+    {
+        title: 'API Spec Management',
+        Svg: require('@site/static/img/api.svg').default, link:'http://192.168.234.123:5252',
+        description: (
+            <>
+                Extend or customize your website layout by reusing React. Docusaurus can
+                be extended while reusing the same header and footer.
+            </>
+        ),
+    },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {
