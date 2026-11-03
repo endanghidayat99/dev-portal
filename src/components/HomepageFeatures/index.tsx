@@ -44,6 +44,16 @@ const FeatureList: FeatureItem[] = [
     ),
   },
     {
+        title: 'API Spec Management',
+        Svg: require('@site/static/img/api.svg').default, link:'http://192.168.234.123:5252',
+        description: (
+            <>
+                Extend or customize your website layout by reusing React. Docusaurus can
+                be extended while reusing the same header and footer.
+            </>
+        ),
+    },
+    {
         title: 'Komodo',
         Svg: require('@site/static/img/komodo.svg').default, link:'http://192.168.212.43:9120/',
         description: (
@@ -63,16 +73,7 @@ const FeatureList: FeatureItem[] = [
             </>
         ),
     },
-    {
-        title: 'Waha',
-        Svg: require('@site/static/img/waha.svg').default, link:'http://192.168.212.43:3033/',
-        description: (
-            <>
-                Extend or customize your website layout by reusing React. Docusaurus can
-                be extended while reusing the same header and footer.
-            </>
-        ),
-    },
+
     {
         title: 'Kibana',
         Svg: require('@site/static/img/kibana.svg').default, link:'http://192.168.212.125:5601/',
@@ -83,16 +84,7 @@ const FeatureList: FeatureItem[] = [
             </>
         ),
     },
-    {
-        title: 'Excalidraw',
-        Svg: require('@site/static/img/excalidraw.svg').default, link:'http://192.168.212.43:5000/',
-        description: (
-            <>
-                Extend or customize your website layout by reusing React. Docusaurus can
-                be extended while reusing the same header and footer.
-            </>
-        ),
-    },
+
     {
         title: 'MailDev',
         Svg: require('@site/static/img/mail.svg').default, link:'http://192.168.212.26:1080/',
@@ -133,9 +125,20 @@ const FeatureList: FeatureItem[] = [
             </>
         ),
     },
+
     {
-        title: 'API Spec Management',
-        Svg: require('@site/static/img/api.svg').default, link:'http://192.168.234.123:5252',
+        title: 'Excalidraw',
+        Svg: require('@site/static/img/excalidraw.svg').default, link:'http://192.168.212.43:5000/',
+        description: (
+            <>
+                Extend or customize your website layout by reusing React. Docusaurus can
+                be extended while reusing the same header and footer.
+            </>
+        ),
+    },
+    {
+        title: 'Waha',
+        Svg: require('@site/static/img/waha.svg').default, link:'http://192.168.212.43:3033/',
         description: (
             <>
                 Extend or customize your website layout by reusing React. Docusaurus can
